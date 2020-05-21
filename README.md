@@ -1,3 +1,2 @@
-# F5-SP-Hands-on-Lab
+# F5 BIG-IP on VNG Cloud
 
-Quick Update.
