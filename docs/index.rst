@@ -6,7 +6,5 @@ SP Hands on Lab (PEM / DNS / CGNAT / AFM / Logging) - Index
    :caption: Contents:
    :glob:
 
-   intro
-   class*/class*
-   howtos/howtos.rst
-   appendix/appendix.rst
+   general
+
