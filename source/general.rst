@@ -11,7 +11,8 @@ From the landing page, click on vMarketplace
 
 .. image:: _static/general/vng-portal-landingpage.png
 
-In the search text box of Marketplace, type bigip then select "F5-BIGIP Virtual Edtion - BYOL".<br>
+In the search text box of Marketplace, type bigip then select "F5-BIGIP Virtual Edtion - BYOL".
+
 BYOL means Bring Your Own Licence - You need to have your own license to utilize the instance. Please have the license key with you before proceeding to the next steps.
 If you want to get the trial license, please go here https://www.f5.com/trials/big-ip-virtual-edition
 
@@ -52,7 +53,8 @@ Wait for about 5 to 10 minutes, your instance will be ready as shown in the exam
 Accessing F5 BIGIP Instance Management Interface
 ------------------------------------------------
 
-Check your inbox, you will have an email from VNG Cloud team with detail of how to access your instance.<br>
+Check your inbox, you will have an email from VNG Cloud team with detail of how to access your instance.
+
 Example as the one below:
 
 .. image:: _static/general/vng-bigip-logindetail.png
@@ -65,7 +67,8 @@ Adjusting your Security Group (inbound rules) to allow accessing ports 22/tcp, 8
 Licensing your F5 BIGIP instance
 --------------------------------
 
-Access to the Web-based management interface of the F5 BIGIP instance as mentioned in the email from VNG Cloud team.<br>
+Access to the Web-based management interface of the F5 BIGIP instance as mentioned in the email from VNG Cloud team.
+
 Typically, it is https://<wan_IP>:8443.
 Click on "Activate"
 
@@ -132,7 +135,8 @@ Save the configuration
 Provisioning modules
 --------------------
 
-Depend on your license and usage, you should go to System --> Resource Provisioning to turn on/off the modules.<br>
+Depend on your license and usage, you should go to System --> Resource Provisioning to turn on/off the modules.
+
 Below is an example screenshot of activating Advanced Web Application Firewall and Application Visibility and Reporting modules.
 
 .. image:: _static/general/vng-bigip-provisioning.png
