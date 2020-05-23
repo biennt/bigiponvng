@@ -140,8 +140,11 @@ Below is an example screenshot of activating Advanced Web Application Firewall a
 Changing the password
 ---------------------
 
-Before starting to configure anything further, REMEMBER TO CHANGE THE PASSSWORD of admin user.<br>
-Goto System --> Users --> User List --> Select admin user --> Change the password. You can give "admin" the access to SSH by selecting "Advanced Shell" or "tmsh".<br>
+Before starting to configure anything further, REMEMBER TO CHANGE THE PASSSWORD of admin user.
+
+Goto System --> Users --> User List --> Select admin user --> Change the password.
+
+You can give "admin" the access to SSH by selecting "Advanced Shell" or "tmsh".
 If you open SSH to public, REMEMBER to change the ROOT password as well. Make it very difficult or disable root login completely.
 
 .. image:: _static/general/change-password.png
