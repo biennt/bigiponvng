@@ -123,6 +123,7 @@ Re-configure the self IP and adding a default route.
     create net route defaultroute network 0.0.0.0/0 gw 10.4.222.1
 
 Save the configuration
+
 .. code-block:: console
 
     save sys config
