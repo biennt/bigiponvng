@@ -59,27 +59,28 @@ Example as the one below:
 
 Adjusting your Security Group (inbound rules) to allow accessing ports 22/tcp, 8443/tcp for management interfaces of the instance itself. Other ports such as 80, 443 should be opened for your application later on.
 
-.. image:: _static/general/vng-securitygroup.png)
+.. image:: _static/general/vng-securitygroup.png
 
 
 Licensing your F5 BIGIP instance
 -------------
 
 Access to the Web-based management interface of the F5 BIGIP instance as mentioned in the email from VNG Cloud team.<br>
-Typically, it is https://<wan_IP>:8443<br>
+Typically, it is https://<wan_IP>:8443.
 Click on "Activate"
 
 .. image:: _static/general/vng-bigip-license.png
 
-Key in the license key string. If your instance can reach the internet directly, you can choose Automatic as Activation Method. If not, click on Manual and follow the next steps
+Key in the license key string. If your instance can reach the internet directly, you can choose Automatic as Activation Method. If not, click on Manual and follow the next steps.
 
 .. image:: _static/general/vng-bigip-license-key.png
 
 
-Manual activation:<br>
-Step 1: select and copy to clipboard all the text in "Dossier"<br>
-Step 2: Click on "Click here to access F5 Licensing Server"<br>
-Step 3: Paste the Dossier text in https://activate.f5.com/license/dossier.jsp
+Manual activation:
+
+* Step 1: select and copy to clipboard all the text in "Dossier".
+* Step 2: Click on "Click here to access F5 Licensing Server".
+* Step 3: Paste the Dossier text in https://activate.f5.com/license/dossier.jsp.
 
 .. image:: _static/general/license-activate1.png
 
