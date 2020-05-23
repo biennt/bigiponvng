@@ -4,6 +4,7 @@ Launching F5 BIGIP Virtual Edition
 -------------------------------
 
 Login to the VNG Cloud Portal
+
 .. image:: _static/general/vng-portal-login.png
 
 From the landing page, click on vMarketplace
