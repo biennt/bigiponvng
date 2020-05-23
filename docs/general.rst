@@ -84,16 +84,16 @@ Manual activation:
 
 .. image:: _static/general/license-activate1.png
 
-Step 4: Accept User Legal Agreement
+* Step 4: Accept User Legal Agreement
 
 .. image:: _static/general/license-activate2.png
 
-Step 5: Copy the content or download the license file
+* Step 5: Copy the content or download the license file
 
 .. image:: _static/general/license-activate3.png
 
 
-Step 6: Paste the content of the license file into "License" text field of your F5 BIGIP instance. Then click Next
+* Step 6: Paste the content of the license file into "License" text field of your F5 BIGIP instance. Then click Next
 
 .. image:: _static/general/license-activate4.png
 
@@ -103,23 +103,24 @@ Re-configure the network
 -------------
 
 Access the instance via SSH by user root, then launch TMSH to re-configure the network settings
-```
-[root@bigip1:Active:Standalone] ~ # tmsh
-```
+.. code-block:: console
+   [root@bigip1:Active:Standalone] ~ # tmsh
+
 Disable DHCP on management interface
-```
-modify sys db dhclient.mgmt value disable
-```
-Re-configure the self IP and adding a default route<br>
+.. code-block:: console
+    modify sys db dhclient.mgmt value disable
+
+Re-configure the self IP and adding a default route.
 (10.4.222.3/24 and 10.4.222.1 are the ip address and default gateway assigned by DHCP on VNG Cloud on instance start)
-```
-create net self self1_nic address 10.4.222.3/24 vlan internal
-create net route defaultroute network 0.0.0.0/0 gw 10.4.222.1
-```
+
+.. code-block:: console
+    create net self self1_nic address 10.4.222.3/24 vlan internal
+    create net route defaultroute network 0.0.0.0/0 gw 10.4.222.1
+
 Save the configuration
-```
-save sys config
-```
+.. code-block:: console
+    save sys config
+
 
 Provisioning modules
 -------------
