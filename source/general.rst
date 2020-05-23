@@ -1,7 +1,7 @@
 F5 BIG-IP on VNG Cloud basic setup
 
 Launching F5 BIGIP Virtual Edition
--------------------------------
+----------------------------------
 
 Login to the VNG Cloud Portal
 
@@ -50,7 +50,7 @@ Wait for about 5 to 10 minutes, your instance will be ready as shown in the exam
 .. image:: _static/general/vng-bigip-instance-detail.png
 
 Accessing F5 BIGIP Instance Management Interface
----------------
+------------------------------------------------
 
 Check your inbox, you will have an email from VNG Cloud team with detail of how to access your instance.<br>
 Example as the one below:
@@ -63,7 +63,7 @@ Adjusting your Security Group (inbound rules) to allow accessing ports 22/tcp, 8
 
 
 Licensing your F5 BIGIP instance
--------------
+--------------------------------
 
 Access to the Web-based management interface of the F5 BIGIP instance as mentioned in the email from VNG Cloud team.<br>
 Typically, it is https://<wan_IP>:8443.
@@ -100,30 +100,36 @@ Manual activation:
 Your instance will be restarting some services and ready after few minutes
 
 Re-configure the network
--------------
+------------------------
 
 Access the instance via SSH by user root, then launch TMSH to re-configure the network settings
+
 .. code-block:: console
-   [root@bigip1:Active:Standalone] ~ # tmsh
+
+    [root@bigip1:Active:Standalone] ~ # tmsh
 
 Disable DHCP on management interface
+
 .. code-block:: console
+
     modify sys db dhclient.mgmt value disable
 
 Re-configure the self IP and adding a default route.
 (10.4.222.3/24 and 10.4.222.1 are the ip address and default gateway assigned by DHCP on VNG Cloud on instance start)
 
 .. code-block:: console
+
     create net self self1_nic address 10.4.222.3/24 vlan internal
     create net route defaultroute network 0.0.0.0/0 gw 10.4.222.1
 
 Save the configuration
 .. code-block:: console
+
     save sys config
 
 
 Provisioning modules
--------------
+--------------------
 
 Depend on your license and usage, you should go to System --> Resource Provisioning to turn on/off the modules.<br>
 Below is an example screenshot of activating Advanced Web Application Firewall and Application Visibility and Reporting modules.
@@ -131,7 +137,7 @@ Below is an example screenshot of activating Advanced Web Application Firewall a
 .. image:: _static/general/vng-bigip-provisioning.png
 
 Changing the password
--------------
+---------------------
 
 Before starting to configure anything further, REMEMBER TO CHANGE THE PASSSWORD of admin user.<br>
 Goto System --> Users --> User List --> Select admin user --> Change the password. You can give "admin" the access to SSH by selecting "Advanced Shell" or "tmsh".<br>
