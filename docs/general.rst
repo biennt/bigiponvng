@@ -6,7 +6,7 @@ Overview of general
 
 abc
 
-.. image:: /_static/vng-portal-login.png
+.. image:: /_static/general/vng-portal-login.png
 
 
 Getting Started
