@@ -35,7 +35,7 @@ Prepare to checkout..
 
 Applying any coupon..
 
-.. image:: _static/general/img/vng-bigip-checkout2.png
+.. image:: _static/general/vng-bigip-checkout2.png
 
 Make the payment..
 
