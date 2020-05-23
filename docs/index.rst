@@ -1,4 +1,4 @@
-SP Hands on Lab (PEM / DNS / CGNAT / AFM / Logging) - Index
+Quick start guides for F5 BIG-IP on VNG Cloud
 =====================================
 
 .. toctree::
