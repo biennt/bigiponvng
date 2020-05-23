@@ -51,7 +51,7 @@ Wait for about 5 to 10 minutes, your instance will be ready as shown in the exam
 
 Accessing F5 BIGIP Instance Management Interface
 ---------------
-xyz
+
 
 Licensing your F5 BIGIP instance
 -------------
