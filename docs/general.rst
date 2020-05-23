@@ -31,23 +31,23 @@ Below is the summary page of what will be created and the cost
 
 Prepare to checkout..
 
-.. image:: _static/general/vng-portal-checkout.png)
+.. image:: _static/general/vng-portal-checkout.png
 
 Applying any coupon..
 
-.. image:: _static/general/img/vng-bigip-checkout2.png)
+.. image:: _static/general/img/vng-bigip-checkout2.png
 
 Make the payment..
 
-.. image:: _static/general/vng-bigip-cloud-checkout3.png)
+.. image:: _static/general/vng-bigip-cloud-checkout3.png
 
 Payment confirmation
 
-.. image:: _static/general/vng-big-ip-checkout-done.png)
+.. image:: _static/general/vng-big-ip-checkout-done.png
 
 Wait for about 5 to 10 minutes, your instance will be ready as shown in the example below
 
-.. image:: _static/general/vng-bigip-instance-detail.png)
+.. image:: _static/general/vng-bigip-instance-detail.png
 
 Accessing F5 BIGIP Instance Management Interface
 ---------------
