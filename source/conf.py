@@ -20,7 +20,7 @@
 project = 'F5 BIGIP on VNG Cloud'
 copyright = '2020, Nguyen Thanh Bien'
 author = 'Nguyen Thanh Bien'
-
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
